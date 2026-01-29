@@ -1,10 +1,10 @@
-"use client";
-export const dynamic = "force-dynamic";
-
-export default function RootLayout({ children }) {
+export default function HomePage() {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <main className="p-12">
+      <h1 className="text-4xl font-bold">Home</h1>
+      <p className="mt-4 text-gray-300">
+        Welcome to CyberAssurance.
+      </p>
+    </main>
   );
 }
