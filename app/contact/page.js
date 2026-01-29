@@ -1,8 +1,7 @@
-export default function Page() {
+export default function ContactPage() {
   return (
-    <main style={{ padding: "40px", color: "white" }}>
-      <h1>Page OK</h1>
-      <p>This page is rendering correctly.</p>
+    <main className="p-12">
+      <h1 className="text-3xl font-semibold">Contact</h1>
     </main>
   );
 }
